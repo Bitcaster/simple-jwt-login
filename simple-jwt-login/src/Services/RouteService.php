@@ -14,10 +14,10 @@ class RouteService extends BaseService
     const AUTHENTICATION_VALIDATE_ROUTE = 'auth/validate';
     const AUTHENTICATION_REVOKE = 'auth/revoke';
 
-    const METHOD_POST = 'POST';
-    const METHOD_GET = 'GET';
-    const METHOD_DELETE = 'DELETE';
-    const METHOD_PUT = 'PUT';
+    const METHOD_POST = 'POST, OPTIONS';
+    const METHOD_GET = 'GET, OPTIONS';
+    const METHOD_DELETE = 'DELETE, OPTIONS';
+    const METHOD_PUT = 'PUT, OPTIONS';
 
     /**
      * @return array
